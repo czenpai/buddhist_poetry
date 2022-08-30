@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596771461195",
+    "project_id": "buddhist-poetry",
+    "storage_bucket": "buddhist-poetry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596771461195:android:0ae807c3f75e75182a15ce",
+        "android_client_info": {
+          "package_name": "com.example.buddhist_poetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596771461195-egtdl0c5l0ign69r4797rqnsgtocbsqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACAGj4X0gGOZ3sE00GXGOjl7GV5U84XcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596771461195-egtdl0c5l0ign69r4797rqnsgtocbsqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

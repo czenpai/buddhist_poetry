@@ -6,6 +6,7 @@ import 'sample_feature/sample_item_details_view.dart';
 import 'sample_feature/sample_item_list_view.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
+import 'package:firedart/firedart.dart';
 
 /// The Widget that configures your application.
 class MyApp extends StatelessWidget {
@@ -16,8 +17,18 @@ class MyApp extends StatelessWidget {
 
   final SettingsController settingsController;
 
+
+  getFirebaseData() async {
+    Firestore.initialize("buddhist-poetry");
+    var map = await Firestore.instance.collection("users").get();
+
+  }
+
   @override
   Widget build(BuildContext context) {
+
+
+
     // Glue the SettingsController to the MaterialApp.
     //
     // The AnimatedBuilder Widget listens to the SettingsController for changes.

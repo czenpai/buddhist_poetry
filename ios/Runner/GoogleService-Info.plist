@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>596771461195-ripqm82psg3nqr0dv19t52kqhcrspbif.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.596771461195-ripqm82psg3nqr0dv19t52kqhcrspbif</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBSxZcq-Y8wwXr1cfUvIxiiuroExkzywlI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>596771461195</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.buddhistPoetry</string>
+	<key>PROJECT_ID</key>
+	<string>buddhist-poetry</string>
+	<key>STORAGE_BUCKET</key>
+	<string>buddhist-poetry.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:596771461195:ios:6176420e03d3b2f52a15ce</string>
+</dict>
+</plist>
