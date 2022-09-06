@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:buddhist_poetry/src/services/auth.dart';
 import 'package:buddhist_poetry/src/services/models.dart';
+import 'package:firedart/firedart.dart';
 
 class FirestoreService {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
