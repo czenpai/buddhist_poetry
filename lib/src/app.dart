@@ -22,11 +22,14 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  var volumes = [];
   getFirebaseData() async {
     // fetches volumes from firebase firestore
     Firestore.initialize("buddhist-poetry");
     var map = await Firestore.instance.collection("volumes").get();
-    print(map);
+    setState(() {
+      volumes = map;
+    });
   }
 
   void initState() {
