@@ -25,10 +25,10 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   var volumes = [];
 
-  getVolumes() async {
-    var map = await FirestoreService().getVolumes();
-    print(map);
-  }
+  // getVolumes() async {
+  //   var map = await FirestoreService().getVolumes();
+  //   print(map);
+  // }
 
   getFirebaseData() async {
     // fetches volumes from firebase firestore
@@ -37,12 +37,13 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       volumes = map;
     });
+    print(map);
   }
 
   void initState() {
     // runs on app load
     super.initState();
-    getVolumes();
+    getFirebaseData();
   }
 
   @override
